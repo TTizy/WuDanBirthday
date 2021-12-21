@@ -219,10 +219,10 @@
 	
 		self.init = function(){ 
 			self.canvas = document.createElement('canvas');             
-			self.canvas.width = self.cw = 1100;
-			self.canvas.height = self.ch = 1500;         
+			self.canvas.width = self.cw = 1050;
+			self.canvas.height = self.ch = 1300;         
 			self.particles = [];    
-			self.partCount = 150;
+			self.partCount = 180;
 			self.fireworks = [];    
 			self.mx = self.cw/2;
 			self.my = self.ch/2;
@@ -234,7 +234,7 @@
 			self.partGravity = 1;
 			self.hueMin = 0;
 			self.hueMax = 360;
-			self.fworkSpeed = 8;
+			self.fworkSpeed = 4;
 			self.fworkAccel = 10;
 			self.hueVariance = 30;
 			self.flickerDensity = 25;
