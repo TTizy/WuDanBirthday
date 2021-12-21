@@ -219,7 +219,7 @@
 	
 		self.init = function(){ 
 			self.canvas = document.createElement('canvas');             
-			self.canvas.width = self.cw = 1050;
+			self.canvas.width = self.cw = 1150;
 			self.canvas.height = self.ch = 1300;         
 			self.particles = [];    
 			self.partCount = 180;
@@ -229,9 +229,9 @@
 			self.currentHue = 30;
 			self.partSpeed = 3;
 			self.partSpeedVariance = 10;
-			self.partWind = 50;
+			self.partWind = 30;
 			self.partFriction = 5;
-			self.partGravity = 1;
+			self.partGravity = 10;
 			self.hueMin = 0;
 			self.hueMax = 360;
 			self.fworkSpeed = 4;
