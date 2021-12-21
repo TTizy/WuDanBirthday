@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "htt`://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>生日快乐蛋糕</title>     
+    <title>伍丹小仙女，生日快乐！</title>     
     <link type="text/css" rel="stylesheet" href="./css/default.css">
     <script type="text/javascript" src="./css/jquery.min.js"></script>
     <script type="text/javascript" src="./css/jscex.min.js"></script>
@@ -219,25 +219,25 @@
 	
 		self.init = function(){ 
 			self.canvas = document.createElement('canvas');             
-			self.canvas.width = self.cw = 1500;
-			self.canvas.height = self.ch = 1000;         
+			self.canvas.width = self.cw = 1200;
+			self.canvas.height = self.ch = 1350;         
 			self.particles = [];    
-			self.partCount = 180;
+			self.partCount = 150;
 			self.fireworks = [];    
 			self.mx = self.cw/2;
 			self.my = self.ch/2;
 			self.currentHue = 30;
-			self.partSpeed = 3;
+			self.partSpeed = 2;
 			self.partSpeedVariance = 10;
-			self.partWind = 30;
+			self.partWind = 20;
 			self.partFriction = 5;
 			self.partGravity = 10;
 			self.hueMin = 0;
-			self.hueMax = 360;
-			self.fworkSpeed = 4;
+			self.hueMax = 240;
+			self.fworkSpeed = 3;
 			self.fworkAccel = 10;
 			self.hueVariance = 30;
-			self.flickerDensity = 25;
+			self.flickerDensity = 20;
 			self.showShockwave = true;
 			self.showTarget = false;
 			self.clearAlpha = 10;
